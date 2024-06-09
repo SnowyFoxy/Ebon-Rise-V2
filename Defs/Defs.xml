@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>Xeauvok</defName>
+		<label>Xeauvok</label>
+		<race>Xeauvok</race>
+		<description>An entity appears as if from the shadows itself. Its four glowing eyes peering into the surroundings as it stalks the area. The creature can appear one moment only to vanish in the next.
+
+			The Cloaked Stalker appears from a shadowy rift before turning invisible, stalking pawns to feed its relentless hunger. However, there is an intelligence behind those eyes. Perhaps you can appease its hunger and gain its favor?</description>
+		<defaultFactionType>Entities</defaultFactionType>
+		<immuneToGameConditionEffects>true</immuneToGameConditionEffects>
+		<combatPower>220</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<lifeStages>
+			<li>
+
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Xeauvok/Xeauvok</texPath>
+					<drawSize>6</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath></texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	
+</Defs>
+<!--
+    All XMl for adding content to the game should be added in this folder or its subfolders.
+-->

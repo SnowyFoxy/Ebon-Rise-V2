@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>]
+<ThingDef ParentName="AnimalThingBase">
+	<defName>Xeauvok</defName>
+	<label>Xeauvok</label>
+	<description>Placeholder Desc Race</description>
+	<statBases>
+		<MoveSpeed>20</MoveSpeed>
+		<ComfyTemperatureMin>-40</ComfyTemperatureMin>
+		<ComfyTemperatureMax>60</ComfyTemperatureMax>
+		<PsychicSensitivity>2</PsychicSensitivity>
+		<LeatherAmount>20</LeatherAmount>
+		<MeatAmount>70</MeatAmount>
+		<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.2</ArmorRating_Heat>
+		<ToxicResistance>0.5</ToxicResistance>
+	</statBases>
+	<tradeability>None</tradeability>
+	<race>
+		<body>Devourer</body>
+		<alwaysViolent>true</alwaysViolent>
+		<baseBodySize>4</baseBodySize>
+		<baseHealthScale>7.2</baseHealthScale>
+		<intelligence>ToolUser</intelligence>
+		<needsRest>false</needsRest>
+		<bloodDef>Filth_DarkBlood</bloodDef>
+		<bleedRateFactor>0.5</bleedRateFactor>
+		<fleshType>EntityFlesh</fleshType>
+		<isImmuneToInfections>true</isImmuneToInfections>
+		<specificMeatDef>Meat_Twisted</specificMeatDef>
+		<leatherDef>Leather_Dread</leatherDef>
+		<hasGenders>false</hasGenders>
+		<foodType>None</foodType>
+		<lifeExpectancy>200</lifeExpectancy>
+		<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+		<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		<soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+		<disableIgniteVerb>true</disableIgniteVerb>
+		<trainability>None</trainability>
+		<canBecomeShambler>true</canBecomeShambler>
+		<lifeStageAges>
+			<li>
+				<def>EntityFullyFormed</def>
+				<soundCall>Pawn_Devourer_Call</soundCall>
+				<soundWounded>Pawn_Devourer_Wounded</soundWounded>
+				<soundAttack>Pawn_Devourer_Attack</soundAttack>
+			</li>
+		</lifeStageAges>
+		<corpseHiddenWhileUndiscovered>true</corpseHiddenWhileUndiscovered>
+	</race>
+</ThingDef>
+	<!--
+	<Bodydef>
+		<defName>Xeauvok</defName>
+		<label>Xeauvok Body</label>
+		<corePart>
+			<def>Body</def>
+			<height>Middle</height>
+			<depth>Outside</depth>
+			<parts>
+				<li>
+					<def>Stomach</def>
+					<coverage>0.08</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>Heart</def>
+					<coverage>0.02</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>Neck</def>
+					<coverage>0.1</coverage>
+					<height>Top</height>
+					<parts>
+						<li>
+							<def>AA_SentientPlantHead</def>
+							<coverage>0.75</coverage>
+							<parts>
+								<li>
+									<def>Skull</def>
+									<coverage>0.15</coverage>
+									<depth>Inside</depth>
+									<parts>
+										<li>
+											<def>Brain</def>
+											<coverage>0.7</coverage>
+											<depth>Inside</depth>
+										</li>
+									</parts>
+								</li>
+								<li>
+									<def>AA_PlantVibrationSensor</def>
+
+									<coverage>0.3</coverage>
+								</li>
+
+								<li>
+									<def>AA_SentientPlantMouth</def>
+									<coverage>0.4</coverage>
+								</li>
+							</parts>
+						</li>
+					</parts>
+				</li>
+				<li>
+					<def>AA_ManTrapTentacle</def>
+					<customLabel>first tentacle</customLabel>
+					<groups>
+						<li>Arms</li>
+					</groups>
+					<coverage>0.05</coverage>
+					<height>Bottom</height>
+
+				</li>
+				<li>
+					<def>AA_ManTrapTentacle</def>
+					<customLabel>second tentacle</customLabel>
+					<groups>
+						<li>Arms</li>
+					</groups>
+					<coverage>0.05</coverage>
+					<height>Bottom</height>
+
+				</li>
+				<li>
+					<def>AA_ManTrapTentacle</def>
+					<customLabel>third tentacle</customLabel>
+					<groups>
+						<li>Arms</li>
+					</groups>
+					<coverage>0.05</coverage>
+					<height>Bottom</height>
+
+				</li>
+			</parts>
+		</corePart>
+	</Bodydef>
+	-->
+</Defs>
